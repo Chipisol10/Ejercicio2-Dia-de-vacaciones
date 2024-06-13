@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* background-image: url("./fondo-flex.jpg") no repeat; */
+    background: url(./fondo-flex.jpg) no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+
+.div-img{
+    width: 220px;
+    display: flex;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-around;
+    top: 50px;
+
+    
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3{
+    display: flex;
+    justify-content: space-around;
+}
